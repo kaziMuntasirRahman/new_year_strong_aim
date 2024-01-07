@@ -7,6 +7,7 @@
   font-family: 'Merriweather', serif; */
 }
 
+/* Shared style up, header section start */
 header {
   background: url('/resources/Banner\ Image.png');
   background-repeat: no-repeat;
@@ -40,4 +41,44 @@ header {
   line-height: 95px;
   /* 131.944% */
   margin-top: 0;
+}
+
+/* Header Section done */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 140px;
+}
+
+.discount {
+  width: 802.9px;
+}
+
+.discount h1 {
+  color: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.discount p {
+  color: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 48px 0 16px 0;
+}
+
+.discount h3 {
+  color: #070211;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
 }

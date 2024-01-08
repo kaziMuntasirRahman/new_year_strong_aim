@@ -207,20 +207,98 @@ main {
   font-weight: 700;
 }
 
-.mystery-section .center-img{
+.mystery-section .center-img {
   border: 15px solid #F00;
   padding: 35px;
   background: white;
   border-radius: 50%;
 }
 
-.mystery-section #inner-para{
+.mystery-section #inner-para {
   margin: 16px 0 43px 0;
 }
 
-.mystery-section #column3{
+.mystery-section #column3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 118px;
 }
+
+/* gift section */
+.gift{
+  /* background: chartreuse; */
+}
+
+.gift .text{
+  background: rgb(215, 171, 255);
+  text-align: center;
+}
+
+.gift .text h6 {
+  color: #070211;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.gift .text h1 {
+  color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 16px auto 28px auto;
+}
+
+.gift .text h1 span {
+  color: #F00;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.gift .text p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  /* 160% */
+  margin: 0 130px 69px 130px;
+}
+
+.gift .gift-images{
+  position: relative;
+  height: 662px;
+}
+
+.gift .gift-images .gift-img {
+  position: absolute;
+}
+
+.gift-images .img1{
+  left: 5%;
+  z-index: 8;
+}
+
+
+.gift-images .img2{
+  top: 10%;
+  right: 20%;
+  z-index: 10;
+  height: 230px;
+}
+
+
+
+.gift-images .img3{
+  right: 0;
+  width: 429px;
+}
+
+
+.gift-images .img4{
+  bottom: 0;
+  height: 229px;
+  width: 100%;
+}
+

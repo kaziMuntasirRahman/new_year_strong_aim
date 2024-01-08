@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -6,8 +7,8 @@
   font-family: 'Merriweather', serif; */
 }
 
-body{
-  background-color:ghostwhite;
+body {
+  background-color: honeydew;
 }
 
 /* Shared style down, header section start */
@@ -93,8 +94,10 @@ main {
 .greeting-section {
   display: flex;
   align-items: center;
-  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/new-years-eve-family-feature.jpg');
   padding: 68px 138px 67px 126px;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 15px;
 }
 
@@ -283,20 +286,23 @@ main {
 
 .gift-images .img1 {
   left: 0;
-  z-index: 8;
-  height: 660px;
+  height: 433px;
+  border-radius: 15px 0 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 .gift-images .img2 {
   top: 10%;
-  right: 21%;
+  left: 36%;
   z-index: 10;
 }
 
 .gift-images .img3 {
   right: 0;
-  width: 429px;
+  top: 5%;
+  z-index: 8;
+  height: 600px;
 }
 
 
@@ -304,11 +310,12 @@ main {
   bottom: 0;
   height: 229px;
   width: 100%;
+  border-radius: 0 0 15px 15px;
 }
 
 /* cart section start */
 .cart {
-  background-color: rgb(255, 255, 255);
+  background-color:rgb(227, 252, 227);
   width: 1320px;
   height: 1200px;
   border-radius: 15px;
@@ -319,11 +326,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.cart-info {
-  background: white;
-}
-
 
 .cart .cart-info h6 {
   color: #F00;
@@ -447,11 +449,11 @@ footer .addresses {
   gap: 600px;
 }
 
-footer .copyright{
+footer .copyright {
   display: flex;
   gap: 800px;
 }
 
-footer .copyright a{
+footer .copyright a {
   cursor: pointer;
 }

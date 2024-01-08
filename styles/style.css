@@ -222,6 +222,8 @@ main {
   padding: 35px;
   background: white;
   border-radius: 50%;
+  width: 365px;
+  height: 365px;
 }
 
 .mystery-section #inner-para {
@@ -315,7 +317,7 @@ main {
 
 /* cart section start */
 .cart {
-  background-color:rgb(227, 252, 227);
+  background-color: rgb(227, 252, 227);
   width: 1320px;
   height: 1200px;
   border-radius: 15px;
@@ -456,4 +458,11 @@ footer .copyright {
 
 footer .copyright a {
   cursor: pointer;
+}
+
+footer hr {
+  width: 1320px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
 }

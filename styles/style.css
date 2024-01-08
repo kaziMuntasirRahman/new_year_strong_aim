@@ -165,7 +165,6 @@ main {
 .mystery-section {
   display: flex;
   justify-content: space-between;
-  background-color: aquamarine;
   align-items: center;
   gap: 100px;
   height: 463px;
@@ -226,12 +225,11 @@ main {
 }
 
 /* gift section */
-.gift{
+.gift {
   /* background: chartreuse; */
 }
 
-.gift .text{
-  background: rgb(215, 171, 255);
+.gift .text {
   text-align: center;
 }
 
@@ -266,7 +264,7 @@ main {
   margin: 0 130px 69px 130px;
 }
 
-.gift .gift-images{
+.gift .gift-images {
   position: relative;
   height: 662px;
 }
@@ -275,30 +273,76 @@ main {
   position: absolute;
 }
 
-.gift-images .img1{
+.gift-images .img1 {
   left: 5%;
   z-index: 8;
 }
 
 
-.gift-images .img2{
+.gift-images .img2 {
   top: 10%;
-  right: 20%;
+  right: 17.5%;
   z-index: 10;
-  height: 230px;
 }
 
 
 
-.gift-images .img3{
+.gift-images .img3 {
   right: 0;
   width: 429px;
 }
 
 
-.gift-images .img4{
+.gift-images .img4 {
   bottom: 0;
   height: 229px;
   width: 100%;
 }
 
+/* cart section start */
+.cart {
+  background-color: rgb(255, 255, 255);
+  width: 1320px;
+  height: 1200px;
+}
+
+.cart-images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cart-info{
+  background: white;
+}
+
+
+.cart .cart-info h6 {
+  color: #F00;
+  font-family: 'Inter', serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cart .cart-info h2 {
+  color: #070211;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 16px 0 22px 0;
+}
+
+.cart .cart-info p {
+  width: 896px;
+  margin-bottom: 48px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: 'Inter', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+}
+
+.item1, .item2, .item3{
+  margin-bottom: 2%;
+}
